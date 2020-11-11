@@ -19,6 +19,11 @@
     &__item
       width: 200px
       font-size: 12px
+  .carousel
+    &__inner
+      width: 600px
+      img
+        width: 100%
 
 @media (max-width: 767px)
   .container
@@ -58,6 +63,13 @@
       margin-top: 30px
   .feed-form
     margin-top: 25px
+  .carousel
+    &__inner
+      width: 450px
+    .slick-prev,
+    .slick-next
+      img
+        height: 35px
 
 @media (max-width: 576px)
   .container
@@ -99,3 +111,16 @@
   .feed-form
     margin: 25px auto 0
     width: 280px
+  .carousel
+    padding: 50px 0
+    &__inner
+      width: 250px
+    .slick-prev
+      left: -30px
+    .slick-next
+      right: -30px
+    .slick-prev,
+    .slick-next
+      img
+        width: 10px
+        height: 25px
